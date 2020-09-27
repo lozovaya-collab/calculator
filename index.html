@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <main class="calculator-page">
+        <div class="calculator">
+            <div class="display">
+                <input disabled type="text" id="display" value="0" name="" class="display-input">
+            </div>
+            <div>
+                <table class="calculator-buttons">
+                    <tbody>
+                        <tr>
+                            <td><button class="btn-clear" id="CE">CE</button></td>
+                            <td><button class="btn-clear" id="C">C</button></td>
+                            <td><button class="operation btn-operation">/</button></td>
+                            <td><button class="operation btn-operation">*</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="btn-operation" id="sqrt">&radic;x</button></td>
+                            <td><button class="btn-operation" id="minus">&#177;</button></td>
+                            <td><button class="operation btn-operation" id="xy">x<sup>y</sup></button></td>
+                            <td><button class="operation btn-operation">-</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="btn-number">7</button></td>
+                            <td><button class="btn-number">8</button></td>
+                            <td><button class="btn-number">9</button></td>
+                            <td><button class="operation btn-operation">+</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="btn-number">4</button></td>
+                            <td><button class="btn-number">5</button></td>
+                            <td><button class="btn-number">6</button></td>
+                            <td rowspan="3"><button class="operation btn-operation" id="button-equal">=</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="btn-number">1</button></td>
+                            <td><button class="btn-number">2</button></td>
+                            <td><button class="btn-number">3</button></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button class="btn-number" id="button-zero">0</button></td>
+                            <td><button class="decimalPoint btn-operation" id="decimal">.</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
